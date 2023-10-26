@@ -1,0 +1,166 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.loginform .flex{
+    display: flex;
+    align-items: center;
+}
+
+.loginform .login{
+
+    padding:0 15px;
+    min-height: 80vh;
+    justify-content: center;
+    background:#f0f2f5;
+}
+.loginform .login .facebook-page{
+
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    /* border: 1px solid black; */
+
+}
+.loginform .login .facebook-page .text{
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.loginform .login .facebook-page h1{
+    color:#ed0e0e;
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.loginform .login .facebook-page p{
+    font-size: 1.75rem;
+    white-space:nowrap;
+}
+
+.loginform .login .facebook-page .form{
+    display:flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    padding:20px;
+    max-width:400px;
+    width:100%;
+
+}
+
+
+.loginform .login .facebook-page .form input{
+    height:55px;
+    width: 100%;
+    border:1px solid #ccc;
+    border-radius:6px;
+    margin-bottom:15px;
+    font-size:1rem;
+    padding:0 14px;
+
+}
+
+.loginform .login .facebook-page .form input:focus{
+    outline: none;
+    border-color: #1877f2;
+}
+
+::placeholder{
+    color:#777;
+    font-size: 1.063rem;
+}
+
+.loginform .login .facebook-page .form .link{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    gap:15px;
+
+}
+
+.loginform .login .facebook-page .form .link .login-btn{
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background:#1877f2 ;
+    padding:15px 0;
+    border-radius:6px;
+    color:#fff;
+    font-size:1.25rem;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+
+.loginform .login .facebook-page .form .link .login-btn:hover{
+    background-color: #0d65d9;;
+
+}
+
+.loginform .login .facebook-page .form a{
+    text-decoration: none;
+}
+
+.loginform .login .facebook-page .form .link .forgot{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    padding:20px;
+    max-width:400px;
+    width:100%;
+}
+
+.loginform .login .facebook-page .form .link .forgot:hover{
+    text-decoration: underline;
+}
+
+hr { 
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+}
+
+.loginform .login .facebook-page .form .button{
+    margin-top: 25px; 
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.loginform .login .facebook-page .form .button a{
+    
+padding: 15px 20px;
+ background: #42b72a;
+  border-radius: 6px; 
+  color: #fff; 
+  font-size: 1.063rem;
+   font-weight: 600;
+   transition: 0.2s ease;
+}
+
+@media (max-width: 900px) { 
+    
+    .loginform .login .facebook-page { flex-direction: column; text-align: center;}
+
+.loginform .login .facebook-page .text {
+     margin-bottom: 30px;
+
+}
+
+}
+@media (max-width: 460px) {
+    
+    .loginform .login .facebook-page h1 { font-size: 3.5rem; }
+
+    .loginform .login .facebook-page p { font-size: 1.3rem; }
+
+    .loginform .login .facebook-page .form { padding: 15px;}
+
+}
+

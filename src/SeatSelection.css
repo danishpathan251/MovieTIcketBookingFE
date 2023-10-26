@@ -1,0 +1,55 @@
+/* SeatSelection.css */
+.seat-selection-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .seat-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .seat-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .seat {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    /* background-color: white; */
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    /* background-color: orange; */
+    
+    color: white;
+  }
+  
+  .seat-legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .seat-legend > div {
+    width: 35px;
+    height: 30px;
+    margin-right: 5px;
+    /* border-radius: 50%; */
+  }
+  
+  .seat-legend > span {
+    margin-right: 20px;
+  }
+  

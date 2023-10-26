@@ -1,0 +1,117 @@
+/* .seat-selection-container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border:1px solid black;
+
+}
+
+
+
+.seat-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.seat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  border-radius: 20px;
+
+
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: orange;
+  color: white;
+}
+
+.seat-legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.seat-legend > div {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+
+.seat-legend > span {
+  margin-right: 20px;
+}
+
+ */
+ .seat-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+
+.seat{
+  border:none;
+
+
+
+/* overflow: hidden; */
+  /* mix-blend-mode: multiply;  */
+
+}
+.reserved{
+  /* background-color:rgb(114, 114, 118); */
+  background-image: url("./Reserveseat.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-size: 30px;
+
+  color:white;
+
+
+
+}
+
+.available{
+  /* background-color:white; */
+  background-image: url("./movieseats.jpeg");
+  background-repeat: no-repeat;
+
+  width:30px;
+  height: 35px;
+    background-size: cover;
+  /* background-size: 45px; */
+  background-size: 30px;
+
+
+}
+.selected{
+  /* background-color:orange; */
+  background-image: url("./selectedseat.png");
+  background-repeat: no-repeat;
+  width:30px;
+  height: 35px;
+    background-size: cover;
+  background-size: 30px;
+  /* mix-blend-mode: color-burn;  */
+
+  /* overflow: hidden; */
+  /* background-size: cover; */
+
+
+}
+.seat .reserved{
+  background-color:rgb(114, 114, 118);
+  
+}

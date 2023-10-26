@@ -1,0 +1,47 @@
+.theater-list{
+    display:flex;
+}
+a {
+    text-decoration:none;
+ }
+
+.theater-item{
+    width: 100px;
+    animation: glow 1000ms infinite alternate;
+}
+
+.fully-booked{
+
+    cursor: not-allowed;
+    width: 100px;
+    animation: redglow 1000ms infinite alternate;
+
+}
+
+@keyframes redglow{
+    from{
+        box-shadow: 0 0 5px #ef1616,
+                        0 0 10px #9e0000,
+                        0 0 15px #f84545;
+    
+    }
+    to {
+    box-shadow: 0 0 2px #f21818,
+    0 0 5px #b31414,
+    0 0 9px #ff1717;
+ }
+}
+
+@keyframes glow{
+    from{
+        box-shadow: 0 0 5px #1877f2,
+                        0 0 10px #1459b3,
+                        0 0 15px #179bff;
+    
+    }
+    to {
+    box-shadow: 0 0 2px #1877f2,
+    0 0 5px #1459b3,
+    0 0 9px #179bff;
+ }
+}

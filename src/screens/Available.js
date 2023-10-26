@@ -1,0 +1,53 @@
+const available =[
+     {
+    "mid":123,
+    "movie":"Godfather",
+    "theatre":"Cinemarc",
+    "area":"Akota",
+    "time":"5:00"
+},
+{
+    "mid":123,
+    "movie":"Godfather",
+    "theatre":"Cinemarc",
+    "area":"Akota",
+    "time":"11:00"
+},
+{
+    "mid":123,
+    "movie":"Godfather",
+    "theatre":"Cinemarc",
+    "area":"Akota",
+    "time":"14:00"
+},
+{
+    "mid":123,
+    "movie":"Godfather",
+    "theatre":"Cinemarc",
+    "area":"Akota",
+    "time":"16:00"
+},
+{
+    "mid":123,
+    "movie":"Godfather",
+    "theatre":"Cinemarc",
+    "area":"Akota",
+    "time":"18:00"
+},
+{
+    "mid":123,
+    "movie":"Godfather",
+    "theatre":"Cinemarc",
+    "area":"Akota",
+    "time":"21:00"
+},
+{
+    "mid":101,
+    "movie":"Godfather",
+    "theatre":"Cinemarc",
+    "area":"Akota",
+    "time":"21:00"
+}
+];
+
+module.exports = available;

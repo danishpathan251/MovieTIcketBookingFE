@@ -1,0 +1,502 @@
+/* *{
+  background-color: #bebebe;
+} */
+/* src/App.css */
+.loader{
+  height: 400px;
+  width: 100%;
+}
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.page-entering,
+.page-exiting {
+  opacity: 0;
+}
+
+.navbar{
+  background-color: white;
+}
+
+#loginheading1{
+  color: #ff6219;
+}
+
+/* .card{
+width: 14rem;
+height: 350px;
+
+} */
+.card-image-container {
+  height: 250px; 
+  /* height:100%; */
+  overflow: hidden;
+}
+
+.card-img-top{
+  width: 100%; /* Ensure the image takes the full width of the container */
+  height: auto; /* Allow the image to maintain its aspect ratio */
+}
+
+
+
+/* body{
+  background-color: Thistle;
+    background: #7d7a7a;
+
+} */
+/* Homemovies.css */
+
+/* Center the title */
+
+
+
+/*  Styling Home Movie Container */
+
+
+.theater-container {
+  width: 80%; /* Adjust the size of the theater container */
+  max-width: 800px; /* You can adjust this based on your layout */
+  height: 5vh; /* Adjust the height of the theater container */
+  /* background-color: #333;  */
+  /* border-radius: 50%; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+  position: relative;
+  left:25%;
+  color: white;
+
+}
+
+.screen {
+margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  /* border-radius:0% 0% 500% 100% / 0% 0% 500% 100% */
+  border-bottom-right-radius: 500px 100px;
+  border-bottom-left-radius: 500px 100px;
+  /* border-top-left-radius: -50px -50px; */
+ 
+}
+
+.homemovies-container {
+  padding: 10px;
+  width: 70%;
+  /* border:10px solid black; */
+
+}
+
+.homemovies-container  .text-center {
+  text-align: center;
+}
+
+.homemovies-container .card-container{
+  display: flex;
+  flex-wrap: wrap;
+
+  /* justify-content: center; */
+}
+/* Style the movie card */
+.homemovies-container .card-container .card {
+  width: 15rem;
+  margin-left: 15px;
+  height: 400px;
+  margin-bottom: 20px;
+  background: transparent;
+  border:none;
+  background-clip: padding-box;
+  /* -webkit-animation-name: foolishOut; */
+  /* animation-name: foolishOut; */
+  animation:swipe 1s ease-in-out alternate;
+
+}
+
+@keyframes swipe {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0.5;
+		transform: translateX(-48px);
+	}
+
+	24% {
+		opacity: 0.7;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(-26px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(-13px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(-6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(-4px);
+	}
+
+	/* 25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	} */
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.homemovies-container  .card:hover {
+  transform: scale(1.02);
+}
+
+/* Style the card image */
+.homemovies-container  .card .card-image-container {
+  height: 500px; /* Adjust the maximum image height as needed */
+  /* overflow: hidden; */
+}
+
+.homemovies-container  .card .card-image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Style the card body */
+.homemovies-container  .card .card-body {
+  padding: 15px;
+}
+
+/* Style the card title and text */
+.homemovies-container  .card-title {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.homemovies-container  .card-text {
+  font-size: 0.6rem;
+}
+
+/* Style the "Book Now" button */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+/* 
+.fypmodel{
+  border:5px solid gray;
+  overflow: hidden;
+} */
+
+.enablediv,.passworddiv{
+  pointer-events: none;
+  opacity: 0.5;
+  filter: blur(2px);
+  animation: fadeOut 2s ease forwards; 
+
+}
+
+.banner12{
+  background:url('C:\mypc\react\moviebooking\public\logo192.png');
+  width: 200px;
+  mix-blend-mode:multiply;
+  height: 200px;
+}
+
+
+
+
+
+
+.varifiediv{
+  color: green;
+}
+.notvarifiediv{
+  color:red;
+}
+
+/* Ticket css */
+.ticket-container, .articles{
+
+  animation: myAnim1 .5s ease-out 0s 1 normal forwards;
+}
+
+@keyframes myAnim1 {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+
+.ticket-container .image-container{
+  display:grid;
+  justify-content: center;
+  padding:25px;
+}
+
+.ticket-container .image-container .image{
+  /* border-radius: 12px; */
+background: linear-gradient(315deg, #cacaca, #f0f0f0);
+background-size: cover;
+             
+}
+
+.ticket-container .text-container{
+  display:flex;
+
+  justify-content: normal;
+  /* align-items: center; */
+  padding:40px 0 0 0;
+  /* transform:translate(-15%,15%); */
+}
+
+.ticket-container .text-container .info-section .heading{
+  font-size:1.3rem;
+
+}
+.ticket-container .text-container .info-section ul li{
+  /* font-size:1rem; */
+  color:rgb(33, 3, 203);
+  list-style: none;
+
+}
+.ticket-container .text-container .info-section ul li b{
+  font-size:1.2rem;
+  color:black;
+
+}
+
+/* News Css */
+
+.articles {
+  width:100%;
+  height:75%;
+}
+.articles .simplenews{
+  height: 100%;
+  /* border: 10px solid black; */
+  /* background-color:yellow; */
+}
+.articles .simplenews .image-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 10px solid black; */
+
+  
+
+}
+
+.articles .simplenews .time-container{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.articles .simplenews .time-container .time-div{
+  background-color:darkgrey;
+  color: white;
+}
+
+/* .articles .simplenews .image-container .image{
+  width: %\
+} */
+.articles .simplenews .image-container .image .text-container{
+  display: flex;
+
+}
+
+.articles .simplenews .text-container .info-section .heading{
+  font-size: 2rem;
+  font-family:sans-serif;
+  /* font-size: 25px; */
+  /* background-color: blue; */
+}
+
+.articles .simplenews .text-container .info-section p{
+  font-size: 1rem;
+  width: 80%;
+}
+
+.adminbtn{
+  width:200px;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+
+  body{
+    margin:0;
+    padding:0;
+    width:100%;
+    /* border:1px solid black; */
+  }
+  .homemovies-container {
+    /* background-color: rgb(236, 189, 189); */
+    /* padding:10px; */
+    width: 100%;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-flow:row wrap;
+    /* flex-wrap: wrap; */
+    border:5px solid red;
+    text-align: center;
+
+  
+  }
+  .homemovies-container .text-center{
+    text-align: center;
+    padding-left: 25px;
+  }
+
+  .homemovies-container .containers {
+
+    /* border:5px solid yellow; */
+    padding: 0;
+    margin:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    /* flex-direction:row; */
+  }
+
+  .homemovies-container .containers .card {
+    width:190px;
+    height: 330px;
+    margin: 0;
+   
+
+  }
+
+
+  .homemovies-container .containers .card .card-body .card-title,   .homemovies-container .containers .card .card-body .card-title .card-text{
+    font-size: 10px;
+
+  }
+  .homemovies-container .containers .card .card-body .btn-primary{
+    padding:5px 0 0 0;
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    
+  }
+  .articles .simplenews .image-container .image{
+    padding-top:20px;
+
+  }
+
+  .articles .simplenews .text-container .info-section .content{
+    padding:0 0 0 0;
+
+  }
+  .articles .simplenews .image-container .image .text-container{
+    align-items: center;
+    text-align: center;
+    padding:0 0 0 20px;
+  }
+
+  .secondnews {
+    display:flex;
+    flex-direction: row-reverse;
+  }
+  
+}
+
+.addshowsdiv,.addtheater,.articles{
+  background: #0083B0;
+  background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+  background: linear-gradient(to right, #0083B0, #00B4DB);
+}
+
+.table-responsive .table th {
+  position: sticky;
+  top: 0;
+  background-color: #f8f9fa;
+}
+    /* overflow: hidden; */
+
+
+.vocherComponent .discount-voucher{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-evenly;
+  /* background-color: rgb(255, 0, 0); */
+
+}
+
+.vocherComponent .discount-voucher .voucher{
+
+  width: 450px;
+  height: 220px;
+  /* border:10px solid black; */
+  /* background-color: black; */
+  margin: 30px;
+
+}
+
+.noticket{
+  height:550px;
+}
+
+
+/* Styling upcomming movie container */
+
+/* @keyframes myAnim {
+	0%
+	
+	 {
+		opacity: 0;
+	}
+
+  50%{
+    opacity: 0.5;
+  }
+
+
+	100% {
+		opacity: 1;
+	}
+} */
