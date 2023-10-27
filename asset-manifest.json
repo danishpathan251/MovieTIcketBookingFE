@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/MovieTIcketBooking/static/css/main.bbbd46bc.css",
-    "main.js": "/MovieTIcketBooking/static/js/main.a3afc5b6.js",
-    "static/js/787.a8bb3f60.chunk.js": "/MovieTIcketBooking/static/js/787.a8bb3f60.chunk.js",
-    "static/media/404img.png": "/MovieTIcketBooking/static/media/404img.173ec002aaf075cc0972.png",
-    "static/media/banner2.png": "/MovieTIcketBooking/static/media/banner2.58d0a1f2d0c2a35b86dd.png",
-    "static/media/thumb.webp": "/MovieTIcketBooking/static/media/thumb.5560d9271cae4a205873.webp",
-    "static/media/banner4.jpeg": "/MovieTIcketBooking/static/media/banner4.65be5e72a459af2314bd.jpeg",
-    "static/media/spiderman.jpg": "/MovieTIcketBooking/static/media/spiderman.a49b0073f9906c77c6da.jpg",
-    "static/media/logo2.png": "/MovieTIcketBooking/static/media/logo2.8875f40b50e1cc92632b.png",
-    "static/media/movieseats.jpeg": "/MovieTIcketBooking/static/media/movieseats.315d5bb21817dfcb4132.jpeg",
-    "static/media/Reserveseat.png": "/MovieTIcketBooking/static/media/Reserveseat.58ef17eccbaf42825a5e.png",
-    "index.html": "/MovieTIcketBooking/index.html",
-    "main.bbbd46bc.css.map": "/MovieTIcketBooking/static/css/main.bbbd46bc.css.map",
-    "main.a3afc5b6.js.map": "/MovieTIcketBooking/static/js/main.a3afc5b6.js.map",
-    "787.a8bb3f60.chunk.js.map": "/MovieTIcketBooking/static/js/787.a8bb3f60.chunk.js.map"
+    "main.css": "/MovieTIcketBookingFE/static/css/main.d6a095fe.css",
+    "main.js": "/MovieTIcketBookingFE/static/js/main.f1d739f4.js",
+    "static/js/787.a8bb3f60.chunk.js": "/MovieTIcketBookingFE/static/js/787.a8bb3f60.chunk.js",
+    "static/media/404img.png": "/MovieTIcketBookingFE/static/media/404img.173ec002aaf075cc0972.png",
+    "static/media/banner2.png": "/MovieTIcketBookingFE/static/media/banner2.58d0a1f2d0c2a35b86dd.png",
+    "static/media/thumb.webp": "/MovieTIcketBookingFE/static/media/thumb.5560d9271cae4a205873.webp",
+    "static/media/banner4.jpeg": "/MovieTIcketBookingFE/static/media/banner4.65be5e72a459af2314bd.jpeg",
+    "static/media/spiderman.jpg": "/MovieTIcketBookingFE/static/media/spiderman.a49b0073f9906c77c6da.jpg",
+    "static/media/logo2.png": "/MovieTIcketBookingFE/static/media/logo2.8875f40b50e1cc92632b.png",
+    "static/media/movieseats.jpeg": "/MovieTIcketBookingFE/static/media/movieseats.315d5bb21817dfcb4132.jpeg",
+    "static/media/Reserveseat.png": "/MovieTIcketBookingFE/static/media/Reserveseat.58ef17eccbaf42825a5e.png",
+    "index.html": "/MovieTIcketBookingFE/index.html",
+    "main.d6a095fe.css.map": "/MovieTIcketBookingFE/static/css/main.d6a095fe.css.map",
+    "main.f1d739f4.js.map": "/MovieTIcketBookingFE/static/js/main.f1d739f4.js.map",
+    "787.a8bb3f60.chunk.js.map": "/MovieTIcketBookingFE/static/js/787.a8bb3f60.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbbd46bc.css",
-    "static/js/main.a3afc5b6.js"
+    "static/css/main.d6a095fe.css",
+    "static/js/main.f1d739f4.js"
   ]
 }
